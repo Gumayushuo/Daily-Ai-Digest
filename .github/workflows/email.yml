@@ -29,7 +29,7 @@ jobs:
         password: ${{ secrets.EMAIL_PASS }}
         secure: true
         subject: "今日 AI 论文晨报"
-        to: "1001210725@email.cugb.edu.cn"
+        to: "你的邮箱"
         from: "Daily AI Digest"
         content_type: text/html
         body: ${{ env.CONTENT }}
