@@ -102,3 +102,4 @@ with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
     f.write(daily_text)
 
 print(f"日报已生成：{OUTPUT_PATH}")
+# -------------------
