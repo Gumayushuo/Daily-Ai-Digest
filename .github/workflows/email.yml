@@ -2,7 +2,7 @@ name: Send Daily Digest Email
 
 on:
   schedule:
-    - cron: "0 23 * * *"  # 北京时间22点发送（14 UTC）
+    - cron: "0 14 * * *"  # 北京时间22点发送（14 UTC）
   workflow_dispatch:
 
 jobs:
@@ -29,7 +29,7 @@ jobs:
         password: ${{ secrets.EMAIL_PASS }}
         secure: true
         subject: "今日 AI 论文晨报"
-        to: "你的邮箱"
+        to: "1001210725@email.cugb.edu.cn"
         from: "Daily AI Digest"
         content_type: text/html
         body: ${{ env.CONTENT }}
