@@ -3,7 +3,7 @@ import openai
 import json
 from datetime import datetime
 
-openai.api_key = os.getenv("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")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def load_new_entries():
     with open("output/daily.md", "r", encoding="utf-8") as f:
@@ -61,4 +61,3 @@ if __name__ == "__main__":
     papers = load_new_entries()
     digest = generate_digest(papers)
     save_digest(digest)
-
