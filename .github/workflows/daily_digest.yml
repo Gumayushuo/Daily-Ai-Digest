@@ -2,8 +2,12 @@ name: Daily Paper Digest
 
 on:
   schedule:
-    - cron: '0 23 * * *' # 每天 23:00 UTC（对应北京时间 7:00）
+    - cron: '0 23 * * *' # 北京时间 7:00
   workflow_dispatch:
+
+# 1. 必须添加写入权限，否则无法 push
+permissions:
+  contents: write
 
 jobs:
   digest:
@@ -35,19 +39,20 @@ jobs:
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+        run: python scripts/send_email.py
+
+      # 2. 新增步骤：保存 seen.json 的状态回仓库
+      - name: Commit and Push changes
         run: |
-          python scripts/send_email.py
-
-      - name: Restore state
-        uses: actions/cache@v3
-        with:
-          path: state
-          key: rss-state
-
-      - name: Save state
-        uses: actions/cache/save@v3
-        if: always()
-        with:
-          path: state
-          key: rss-state
-
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          
+          # 检查是否有文件变动
+          if [ -n "$(git status --porcelain state/seen.json)" ]; then
+            git add state/seen.json
+            git commit -m "Update seen papers list [skip ci]"
+            git push
+            echo "Successfully pushed updated seen.json"
+          else
+            echo "No changes in seen.json"
+          fi
