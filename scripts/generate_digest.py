@@ -6,48 +6,55 @@ from openai import OpenAI
 
 # -------------------
 SEEN_JSON_PATH = "state/seen.json"
-TODAY = datetime.now().strftime("%Y-%m-%d")
+OUTPUT_PATH = "output/daily.txt"
+
+today = datetime.now().strftime("%Y-%m-%d")
 
 # -------------------
-# 读取已抓取的论文
+# 读取 seen.json
 if not os.path.exists(SEEN_JSON_PATH):
-    print("seen.json 不存在，请先运行 rss_reader.py 抓取论文。")
+    print("seen.json 不存在，请先运行 RSS 抓取脚本。")
     exit(1)
 
 with open(SEEN_JSON_PATH, "r", encoding="utf-8") as f:
-    seen_data = json.load(f)
+    try:
+        seen = json.load(f)
+    except Exception as e:
+        print(f"读取 seen.json 出错: {e}")
+        exit(1)
 
 # 筛选今日新增论文
-papers_data = [p for p in seen_data if isinstance(p, dict) and p.get("date") == TODAY]
+papers_today = [p for p in seen if isinstance(p, dict) and p.get("date") == today]
 
-# -------------------
-if not papers_data:
-    print(f"{TODAY} 没有新增论文。")
-    digest_text = "今日没有新增论文。"
+if not papers_today:
+    print("今日没有新增论文。")
+    daily_content = f"Daily Paper Digest — {today}\n\n今日没有新增论文。\n"
 else:
+    # -------------------
     DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
     if not DEEPSEEK_API_KEY:
-        raise ValueError("请设置环境变量 DEEPSEEK_API_KEY 为 DeepSeek API Key")
+        raise ValueError("请设置环境变量 DEEPSEEK_API_KEY")
 
     client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
-    # 构建简化列表给 AI
+    # 构建 AI 输入
     papers_brief = "\n".join(
-        [f"{p.get('title','未知标题')} ({p.get('source','未知期刊')})" for p in papers_data]
+        f"{p.get('title','未知标题')} ({p.get('source','未知期刊')})"
+        for p in papers_today
     )
 
     system_prompt = (
         "你是一名地球科学领域科研助手。\n"
-        "请根据以下论文列表生成科研日报。\n"
+        "请根据以下论文列表生成日报。\n"
         "要求：\n"
         "1. 整体趋势提炼，6-8点。\n"
         "2. 按主题自动分类，表格形式：主题 | 代表论文 | 备注。\n"
         "3. 每篇论文一句话核心贡献。\n"
-        "4. 输出文本格式日报（不要 Markdown 格式化标记）。\n"
+        "4. 输出纯文本日报格式，适合邮件发送。\n"
         "5. 不要包含原始条目列表。"
     )
 
-    user_prompt = f"今天日期：{TODAY}\n新增论文列表：\n{papers_brief}"
+    user_prompt = f"今天日期：{today}\n新增论文列表：\n{papers_brief}"
 
     try:
         resp = client.chat.completions.create(
@@ -58,40 +65,40 @@ else:
             ],
             stream=False
         )
-        ai_content = resp.choices[0].message.content.strip()
+        ai_summary = resp.choices[0].message.content.strip()
     except Exception as e:
-        ai_content = f"摘要生成失败: {e}"
+        ai_summary = f"AI 摘要生成失败: {e}"
 
-    digest_text = ai_content
+    # -------------------
+    # 构建日报文本
+    daily_content = []
+    daily_content.append(f"Daily Paper Digest — {today}")
+    daily_content.append(f"今日新增论文：{len(papers_today)}")
+    daily_content.append(f"已累计收录：{len(seen)} 篇")
+    daily_content.append("\n---\n")
+    daily_content.append("【AI 摘要整理】\n")
+    daily_content.append(ai_summary)
+    daily_content.append("\n---\n")
+    daily_content.append("【附录：原始论文信息】\n")
 
-# -------------------
-# 构建文本日报
-today_header = f"Daily Paper Digest — {TODAY}\n"
-summary_line = f"今日新增论文：{len(papers_data)}"
-accum_line = f"已累计收录：{len(seen_data)} 篇\n"
-
-email_content = f"{today_header}{summary_line}\n{accum_line}\n---\n\n"
-email_content += f"摘要整理：\n{digest_text}\n\n"
-
-# -------------------
-# 附录：原始文章信息
-if papers_data:
-    email_content += "附录：原始文章信息\n"
-    for i, p in enumerate(papers_data, 1):
-        authors_list = [str(a) for a in p.get("authors", []) if a]
-        authors_str = ", ".join(authors_list) if authors_list else "未知"
-        email_content += f"\n{i}. {p.get('title','未知标题')}\n"
-        email_content += f"   作者：{authors_str}\n"
-        email_content += f"   来源：{p.get('source','未知')}\n"
-        email_content += f"   链接：{p.get('link','')}\n"
+    for i, p in enumerate(papers_today, 1):
+        authors = p.get("authors", [])
+        authors = [a for a in authors if a]  # 去除 None
+        authors_str = ", ".join(authors) if authors else "未知"
+        daily_content.append(f"{i}. {p.get('title','未知标题')}")
+        daily_content.append(f"   作者：{authors_str}")
+        daily_content.append(f"   期刊/来源：{p.get('source','未知')}")
+        daily_content.append(f"   链接：{p.get('link','')}")
         if p.get("summary"):
-            email_content += f"   摘要：{p['summary']}\n"
+            daily_content.append(f"   摘要：{p['summary']}")
+        daily_content.append("")  # 空行分隔
+
+    daily_text = "\n".join(daily_content)
 
 # -------------------
-# 输出到文本文件
-OUTPUT_FILE = f"output/daily_{TODAY}.txt"
-os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    f.write(email_content)
+# 写入文件
+os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+    f.write(daily_text)
 
-print(f"日报已生成：{OUTPUT_FILE}")
+print(f"日报已生成：{OUTPUT_PATH}")
