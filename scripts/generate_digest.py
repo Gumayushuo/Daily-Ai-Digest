@@ -25,6 +25,22 @@ with open(SEEN_JSON_PATH, "r", encoding="utf-8") as f:
 
 # 筛选今日新增论文
 papers_today = [p for p in seen if isinstance(p, dict) and p.get("date") == today]
+# ⚠️ 【临时修复代码】如果今天新增文章过多，我们认为这是冷启动或重复运行导致的错误。
+#    我们将所有文章的日期字段清除，并重新提交 seen.json，强制让 generate_digest 在下次运行只看到真正新增的文章。
+if len(papers_today) > 100 and len(seen) > 100:
+    print(f"检测到 {len(papers_today)} 篇新增论文，数量异常，正在重置 seen.json 中的日期标签。")
+    # 重置 seen 列表中所有文章的日期
+    for p in seen:
+        if isinstance(p, dict) and p.get("date"):
+            p["date"] = "1970-01-01" # 设为一个过去时间
+            
+    # 将重置后的 seen 列表写回文件 (覆盖原来的文件)
+    with open(SEEN_JSON_PATH, "w", encoding="utf-8") as f:
+        json.dump(seen, f, indent=2, ensure_ascii=False)
+        
+    print("日期标签重置完毕。本次运行将跳过 AI 摘要。请再次触发 Workflow。")
+    # 强制退出，让 GitHub Action 提交重置后的 seen.json
+    exit(0) 
 
 if not papers_today:
     print("今日没有新增论文。")
