@@ -18,6 +18,7 @@ RSS_URLS = [
     "https://www.nature.com/ngeo.rss",
     "https://www.nature.com/ncomms.rss",
     "https://www.nature.com/natrevearthenviron.rss",
+    "https://www.nature.com/commsenv.rss",
     "https://www.pnas.org/action/showFeed?type=searchTopic&taxonomyCode=topic&tagCode=earth-sci",
     "https://www.annualreviews.org/rss/content/journals/earth/latestarticles?fmt=rss",
     "https://rss.sciencedirect.com/publication/science/00128252",
