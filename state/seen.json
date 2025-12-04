@@ -1,5 +1,104 @@
 [
   {
+    "id": "https://www.nature.com/articles/s41586-025-09980-2",
+    "title": "Author Correction: Activity of caspase-8 determines plasticity between cell death pathways",
+    "link": "https://www.nature.com/articles/s41586-025-09980-2",
+    "authors": [
+      "Kim Newton",
+      "Katherine E. Wickliffe",
+      "Allie Maltzman",
+      "Debra L. Dugger",
+      "Rohit Reja",
+      "Yue Zhang",
+      "Merone Roose-Girma",
+      "Zora Modrusan",
+      "Meredith S. Sagolla",
+      "Joshua D. Webster",
+      "Vishva M. Dixit"
+    ],
+    "summary": "Nature, Published online: 04 December 2025; <a href=\"https://www.nature.com/articles/s41586-025-09980-2\">doi:10.1038/s41586-025-09980-2</a>Author Correction: Activity of caspase-8 determines plasticity between cell death pathways",
+    "source": "Nature",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.nature.com/articles/d41586-025-03955-z",
+    "title": "Aluminium is crucial to vaccines — and safe. Why are US advisers debating it?",
+    "link": "https://www.nature.com/articles/d41586-025-03955-z",
+    "authors": [
+      "Heidi Ledford"
+    ],
+    "summary": "Nature, Published online: 04 December 2025; <a href=\"https://www.nature.com/articles/d41586-025-03955-z\">doi:10.1038/d41586-025-03955-z</a>RFK Jr’s vaccine advisory panel will be discussing the inclusion of adjuvants in childhood vaccinations this week. Here’s what’s at stake.",
+    "source": "Nature",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.nature.com/articles/s41467-025-65160-w",
+    "title": "Hydrotrope-enabled high concentration aqueous electrolytes for reversible and sustainable iron metal anodes",
+    "link": "https://www.nature.com/articles/s41467-025-65160-w",
+    "authors": [
+      "Guangxia Feng",
+      "Zaichun Liu",
+      "John Holoubek",
+      "Louisa C. Greenburg",
+      "Ge Zhang",
+      "Yuqi Li",
+      "Xun Guan",
+      "Yi Cui",
+      "Pu Zhang",
+      "Adam Brest",
+      "Xueli Zheng",
+      "Yi Cui"
+    ],
+    "summary": "Nature Communications, Published online: 04 December 2025; <a href=\"https://www.nature.com/articles/s41467-025-65160-w\">doi:10.1038/s41467-025-65160-w</a>Iron metal batteries are hindered by poor reversibility and hydrogen evolution. Here, authors introduce a urea-based hydrotrope to create a high-concentration ferrous sulfate electrolyte, enabling stable, dendrite-free cycling and advancing cost-effective, sustainable energy storage.",
+    "source": "Nature Communications",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.nature.com/articles/s41467-025-67127-3",
+    "title": "Benchmarking all-atom biomolecular structure prediction with FoldBench",
+    "link": "https://www.nature.com/articles/s41467-025-67127-3",
+    "authors": [
+      "Sheng Xu",
+      "Qiantai Feng",
+      "Lifeng Qiao",
+      "Hao Wu",
+      "Tao Shen",
+      "Yu Cheng",
+      "Shuangjia Zheng",
+      "Siqi Sun"
+    ],
+    "summary": "Nature Communications, Published online: 04 December 2025; <a href=\"https://www.nature.com/articles/s41467-025-67127-3\">doi:10.1038/s41467-025-67127-3</a>Accurate all-atom structure prediction is essential for biology and medicine, yet systematic benchmarks remain limited. Here, authors introduce FoldBench, a dataset of 1,522 targets across nine tasks, mapping strengths and challenges across diverse biomolecular interactions.",
+    "source": "Nature Communications",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.sciencedirect.com/science/article/pii/S0012825225003010",
+    "title": "Corrigendum to “Revisiting the Dom Feliciano Belt and surrounding areas – An integrated geophysical and isotope geology approach” [Earth-Science Reviews, 266 (2025), 105135]",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0012825225003010?dgcid=rss_sd_all",
+    "authors": [],
+    "summary": "Publication date: Available online 3 December 2025<b>Source:</b> Earth-Science ReviewsAuthor(s): C.D. Teixeira, T.J. Girelli, H. Serratt, F. Chemale",
+    "source": "ScienceDirect Publication: Earth-Science Reviews",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.sciencedirect.com/science/article/pii/S0012825225003149",
+    "title": "Corrigendum to ‘Hydrothermal vents through space and time: experimentally simulating dynamic flow-through systems on Earth and other worlds’ [Earth Science Reviews 271 (2025) 105311]",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0012825225003149?dgcid=rss_sd_all",
+    "authors": [],
+    "summary": "Publication date: Available online 3 December 2025<b>Source:</b> Earth-Science ReviewsAuthor(s): Bronwyn L. Teece, Selene M.C. Cannelli, C. Felipe Garibello, Shawn E. McGlynn, Laura M. Barge",
+    "source": "ScienceDirect Publication: Earth-Science Reviews",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.sciencedirect.com/science/article/pii/S0012825225003186",
+    "title": "Borehole geophysical studies in glaciers. Part I: Borehole logging",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0012825225003186?dgcid=rss_sd_all",
+    "authors": [],
+    "summary": "Publication date: Available online 3 December 2025<b>Source:</b> Earth-Science ReviewsAuthor(s): Pavel G. Talalay, Nan Zhang, Xiaopeng Fan, Yazhou Li, Da Gong, Bing Li",
+    "source": "ScienceDirect Publication: Earth-Science Reviews",
+    "date": "2025-12-04"
+  },
+  {
     "id": "https://www.sciencedirect.com/science/article/pii/S0012821X25005643",
     "title": "Variable roles of oceanic transform faults in plume dispersion along segmented mid-ocean ridges",
     "link": "https://www.sciencedirect.com/science/article/pii/S0012821X25005643?dgcid=rss_sd_all",
