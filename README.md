@@ -1,4 +1,4 @@
-# Daily-Ai-Digest
+# Geoscience-Morning-Digest 地质晨报
 
 ## 🛠️ 使用说明
 
