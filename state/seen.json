@@ -1,5 +1,647 @@
 [
   {
+    "id": "https://www.nature.com/articles/s41586-025-09771-9",
+    "title": "Persuading voters using human–artificial intelligence dialogues",
+    "link": "https://www.nature.com/articles/s41586-025-09771-9",
+    "authors": [
+      "Hause Lin",
+      "Gabriela Czarnek",
+      "Benjamin Lewis",
+      "Joshua P. White",
+      "Adam J. Berinsky",
+      "Thomas Costello",
+      "Gordon Pennycook",
+      "David G. Rand"
+    ],
+    "summary": "Nature, Published online: 04 December 2025; <a href=\"https://www.nature.com/articles/s41586-025-09771-9\">doi:10.1038/s41586-025-09771-9</a>Human–artificial intelligence (AI) dialogues can meaningfully impact voters’ attitudes towards presidential candidates and policy, demonstrating the potential of conversational AI to influence political decision-making.",
+    "source": "Nature",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.nature.com/articles/d41586-025-03956-y",
+    "title": "China’s scientific clout is growing as US influence wanes: the data show how",
+    "link": "https://www.nature.com/articles/d41586-025-03956-y",
+    "authors": [
+      "Jeff Tollefson"
+    ],
+    "summary": "Nature, Published online: 04 December 2025; <a href=\"https://www.nature.com/articles/d41586-025-03956-y\">doi:10.1038/d41586-025-03956-y</a>An analysis of international research collaborations reveals the growing dominance of Chinese science.",
+    "source": "Nature",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.nature.com/articles/d41586-025-03975-9",
+    "title": "AI chatbots can sway voters with remarkable ease — is it time to worry?",
+    "link": "https://www.nature.com/articles/d41586-025-03975-9",
+    "authors": [
+      "Max Kozlov"
+    ],
+    "summary": "Nature, Published online: 04 December 2025; <a href=\"https://www.nature.com/articles/d41586-025-03975-9\">doi:10.1038/d41586-025-03975-9</a>Experiments involving real-world voters show how talking to a chatbot can shape people’s political opinions.",
+    "source": "Nature",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.nature.com/articles/d41586-025-03959-9",
+    "title": "DeepSeek’s self-correcting AI model aces tough maths proofs",
+    "link": "https://www.nature.com/articles/d41586-025-03959-9",
+    "authors": [
+      "Mohana Basu"
+    ],
+    "summary": "Nature, Published online: 04 December 2025; <a href=\"https://www.nature.com/articles/d41586-025-03959-9\">doi:10.1038/d41586-025-03959-9</a>The mathematical reasoning model performed as well as humans at prestigious international mathematics competitions.",
+    "source": "Nature",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.nature.com/articles/d41586-025-03733-x",
+    "title": "AI chatbots can persuade voters to change their minds",
+    "link": "https://www.nature.com/articles/d41586-025-03733-x",
+    "authors": [
+      "Chiara Vargiu",
+      "Alessandro Nai"
+    ],
+    "summary": "Nature, Published online: 04 December 2025; <a href=\"https://www.nature.com/articles/d41586-025-03733-x\">doi:10.1038/d41586-025-03733-x</a>Conversations with AI can sway people’s political views. Concerningly, a chatbot’s facts are not always accurate, especially when it supports right-wing positions.",
+    "source": "Nature",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aec7390?af=R",
+    "title": "Painting the phylogeny of life",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aec7390?af=R",
+    "authors": [
+      "Yan Wong"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 990-990, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aec0099?af=R",
+    "title": "Centering disabled perspectives in technology",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aec0099?af=R",
+    "authors": [
+      "Johnathan Flowers"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 989-989, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.adr3521?af=R",
+    "title": "Semiseparated biphasic bicontinuous dielectric elastomer for high-performance artificial muscle",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adr3521?af=R",
+    "authors": [
+      "Xiaotian Shi, Jiang Zou, Peinan Yan, Rongtai Wan, Baoyang Lu, Guoying Gu, Xiangyang Zhu"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 1044-1049, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.adv6588?af=R",
+    "title": "Multiscale structure of chromatin condensates explains phase separation and material properties",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adv6588?af=R",
+    "authors": [
+      "Huabin Zhou, Jan Huertas, M. Julia Maristany, Kieran Russell, June Ho Hwang, Run-Wen Yao, Nirnay Samanta, Joshua Hutchings, Ramya Billur, Momoko Shiozaki, Xiaowei Zhao, Lynda K. Doolittle, Bryan A. Gibson, Andrea Soranno, Margot Riggi, Jorge R. Espinosa, Zhiheng Yu, Elizabeth Villa, Rosana Collepardo-Guevara, Michael K. Rosen"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.adv9797?af=R",
+    "title": "High-fidelity human chromosome transfer and elimination",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adv9797?af=R",
+    "authors": [
+      "Gianluca Petris, Simona Grazioli, Linda van Bijsterveldt, Pierre Murat, Kim C. Liu, Jakob Birnbaum, Julian E. Sale, Jason W. Chin"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 1038-1043, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.adw0566?af=R",
+    "title": "Cohesin guides homology search during DNA repair using loops and sister chromatid linkages",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adw0566?af=R",
+    "authors": [
+      "Federico Teloni, Zsuzsanna Takacs, Michael Mitter, Christoph C. H. Langer, Inès Prlesi, Thomas L. Steinacker, Vincent P. Reuter, Dmitry Mylarshchikov, Daniel W. Gerlich"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.adw1928?af=R",
+    "title": "Cohesin drives chromatin scanning during the RAD51-mediated homology search",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adw1928?af=R",
+    "authors": [
+      "Alberto Marin-Gonzalez, Adam T. Rybczynski, Namrata M. Nilavar, Daniel Nguyen, Andrew G. Li, Violetta Karwacki-Neisius, Roger S. Zou, Franklin J. Avilés-Vázquez, Masato T. Kanemaki, Ralph Scully, Taekjip Ha"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.ady3571?af=R",
+    "title": "The specificity and structure of DNA cross-linking by the gut bacterial genotoxin colibactin",
+    "link": "https://www.science.org/doi/abs/10.1126/science.ady3571?af=R",
+    "authors": [
+      "Erik S. Carlson, Raphael Haslecker, Chiara Lecchi, Miguel A. Aguilar Ramos, Vyshnavi Vennelakanti, Linda Honaker, Alessia Stornetta, Estela S. Millán, Bruce A. Johnson, Heather J. Kulik, Silvia Balbo, Peter W. Villalta, Victoria M. D’Souza, Emily P. Balskus"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.ady4102?af=R",
+    "title": "Cell wall patterning regulates plant stem cell dynamics",
+    "link": "https://www.science.org/doi/abs/10.1126/science.ady4102?af=R",
+    "authors": [
+      "Xianmiao Zhu, Xing Chen, Yangxuan Liu, Yimin Zhu, Geshuang Gao, Miao Lan, Yihao Fu, Yimin Gu, Han Han, Wenjuan Cai, Raymond Wightman, Mingjun Gao, Yiliang Ding, Weibing Yang"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 1064-1070, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.adz0091?af=R",
+    "title": "Improved solvent systems for commercially viable perovskite photovoltaic modules",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adz0091?af=R",
+    "authors": [
+      "Yinke Wang, Ye Liu, Xin Luo, Ke Xiao, Victor Marrugat-Arnal, Dongdong Xu, Jing Lou, Weiwei Zuo, Navid Tavakoli, Tiantian Li, Yuanbo Yang, Chenyang Duan, Wennan Ou, Yuxuan Liu, Jiajia Hong, Hongfei Sun, Gongtao Duan, Manya Li, Han Gao, Zijing Chu, Long Jiang, Michael Saliba, Makhsud I. Saidaminov, Chao Chang, Hairen Tan"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 1021-1028, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aea4737?af=R",
+    "title": "Biocatalytic, asymmetric radical hydrogenation of unactivated alkenes",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aea4737?af=R",
+    "authors": [
+      "Jaicy Vallapurackal, Rajib Mandal, Justin Bossenbroek, Aris V. Rubio, Ethan Poladian, James D. Collings, Cesar Torres, Matthew Hendrickson, Julian Morales, Max B. Lyons, Kyle Schultz, Hannah S. Shafaat, K. N. Houk, Soumitra V. Athavale"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 1050-1056, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-10-16"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aea8088?af=R",
+    "title": "A stoichiometrically conserved homologous series with infinite structural diversity",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aea8088?af=R",
+    "authors": [
+      "Hengdi Zhao, Xiuquan Zhou, Ziliang Wang, Patricia E. Meza, Yihao Wang, Denis T. Keane, Steven J. Weigand, Saul H. Lapidus, Duck-Young Chung, Christopher Wolverton, Vinayak P. Dravid, Stephan Rosenkranz, Mercouri G. Kanatzidis"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 1057-1063, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.adv7915?af=R",
+    "title": "Hexatic phase in covalent two-dimensional silver iodide",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adv7915?af=R",
+    "authors": [
+      "Thuy An Bui, David Lamprecht, Jacob Madsen, Marcin Kurpas, Peter Kotrusz, Alexander Markevich, Clemens Mangler, Jani Kotakoski, Lado Filipovic, Jannik C. Meyer, Timothy J. Pennycook, Viera Skákalová, Kimmo Mustonen"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 1033-1037, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aea3884?af=R",
+    "title": "The levers of political persuasion with conversational artificial intelligence",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aea3884?af=R",
+    "authors": [
+      "Kobi Hackenburg, Ben M. Tappin, Luke Hewitt, Ed Saunders, Sid Black, Hause Lin, Catherine Fist, Helen Margetts, David G. Rand, Christopher Summerfield"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.adr1522?af=R",
+    "title": "Pre- and postantibiotic epoch: The historical spread of antimicrobial resistance",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adr1522?af=R",
+    "authors": [
+      "Adrian Cazares, Wendy Figueroa, Daniel Cazares, Leandro Lima, Jake D. Turnbull, Hannah McGregor, Jo Dicks, Sarah Alexander, Zamin Iqbal, Nicholas R. Thomson"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.adp6474?af=R",
+    "title": "Constraints on lepton number violation with the 2 tonne · year CUORE dataset",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adp6474?af=R",
+    "authors": [
+      "CUORE CollaborationCUORE Collaboration*†D. Q. Adams, C. Alduino, K. Alfonso, F. T. Avignone, O. Azzolini, G. Bari, F. Bellini, G. Benato, M. Beretta, M. Biassoni, A. Branca, C. Brofferio, C. Bucci, J. Camilleri, A. Caminata, A. Campani, J. Cao, S. Capelli, C. Capelli, L. Cappelli, L. Cardani, P. Carniti, N. Casali, E. Celi, D. Chiesa, M. Clemenza, S. Copello, O. Cremonesi, R. J. Creswick, A. D’Addabbo, I. Dafinei, F. Del Corso, S. Dell’Oro, S. Di Domizio, S. Di Lorenzo, T. Dixon, V. Dompé, D. Q. Fang, G. Fantini, M. Faverzani, E. Ferri, F. Ferroni, E. Fiorini, M. A. Franceschi, S. J. Freedman, S.H. Fu, B. K. Fujikawa, S. Ghislandi, A. Giachero, M. Girola, L. Gironi, A. Giuliani, P. Gorla, C. Gotti, P.V. Guillaumon, T. D. Gutierrez, K. Han, E. V. Hansen, K. M. Heeger, D.L. Helis, H. Z. Huang, G. Keppel, Yu. G. Kolomensky, R. Kowalski, R. Liu, L. Ma, Y. G. Ma, L. Marini, R. H. Maruyama, D. Mayer, Y. Mei, M. N. Moore, T. Napolitano, M. Nastasi, C. Nones, E. B. Norman, A. Nucciotti, I. Nutini, T. O’Donnell, M. Olmi, B.T. Oregui, J. L. Ouellet, S. Pagan, C. E. Pagliarone, L. Pagnanini, M. Pallavicini, L. Pattavina, M. Pavan, G. Pessina, V. Pettinacci, C. Pira, S. Pirro, I. Ponce, E. G. Pottebaum, S. Pozzi, E. Previtali, A. Puiu, S. Quitadamo, A. Ressa, C. Rosenfeld, B. Schmidt, V. Sharma, V. Singh, M. Sisti, D. Speller, P.T. Surukuchi, L. Taffarello, C. Tomei, J.A Torres, K. J. Vetter, M. Vignati, S. L. Wagaarachchi, B. Welliver, J. Wilson, K. Wilson, L. A. Winslow, S. Zimmermann, S. Zucchelli"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 1029-1032, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-10-16"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aee0656?af=R",
+    "title": "A quantum centenary",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aee0656?af=R",
+    "authors": [
+      "Sumin Jin, Jelena Stajic, and Eric Hand"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 996-997, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.adz8659?af=R",
+    "title": "Challenges and opportunities for quantum information hardware",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adz8659?af=R",
+    "authors": [
+      "David D. Awschalom, Hannes Bernien, Ronald Hanson, William D. Oliver, Jelena Vučković"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 1004-1010, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aee2617?af=R",
+    "title": "A writing pact",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aee2617?af=R",
+    "authors": [
+      "Arjav Shah"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 1074-1074, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aee3887?af=R",
+    "title": "In Other Journals",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aee3887?af=R",
+    "authors": [
+      "Corinne Simonti, and Jesse Smith, Keith T. Smith, Ekeoma Uzogara, Mattia Maroso, Sacha Vignieri, Madeleine Seale, Yury Suleymanov, and Phil Szuromi"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 1013-1014, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.ado6686?af=R",
+    "title": "Cracking chemistry with quantum simulations",
+    "link": "https://www.science.org/doi/abs/10.1126/science.ado6686?af=R",
+    "authors": [
+      "Philipp Schleich and Alán Aspuru-Guzik"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 1002-1003, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.adt1732?af=R",
+    "title": "Dawn of quantum simulators",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adt1732?af=R",
+    "authors": [
+      "Pedram Roushan and Leigh Martin"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 1000-1002, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.ady6092?af=R",
+    "title": "One hundred years of quantum mechanics",
+    "link": "https://www.science.org/doi/abs/10.1126/science.ady6092?af=R",
+    "authors": [
+      "Marlan O. Scully and William G. Unruh"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 998-1000, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aec9205?af=R",
+    "title": "Molecular basis of DNA cross-linking by bacteria",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aec9205?af=R",
+    "authors": [
+      "Orlando D. Schärer"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 984-985, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aed0014?af=R",
+    "title": "A vision of chromosome organization",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aed0014?af=R",
+    "authors": [
+      "Kaite Zhang and Vijay Ramani"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 986-987, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aed1859?af=R",
+    "title": "A tale of two forms of cohesin in DNA repair",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aed1859?af=R",
+    "authors": [
+      "Jiazhi Hu"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 987-988, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aec9293?af=R",
+    "title": "Political persuasion by artificial intelligence",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aec9293?af=R",
+    "authors": [
+      "Lisa P. Argyle"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 983-984, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aeb8221?af=R",
+    "title": "Smart irrigation needs smart policies in Iran",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aeb8221?af=R",
+    "authors": [
+      "Alireza Gohari, Julie Shortridge, and Ali Torabi Haghighi"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 991-992, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aed7998?af=R",
+    "title": "SAFE Act hinders US-China collaboration",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aed7998?af=R",
+    "authors": [
+      "Alex J. Yang, Richard B. Freeman, and Sanhong Deng"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 991-991, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aed7058?af=R",
+    "title": "Address domestic pressures on endangered species",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aed7058?af=R",
+    "authors": [
+      "Charles A. Emogor"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 992-992, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aed9040?af=R",
+    "title": "Erratum for the Research Article “Homogenized chlorine distribution for >27% power conversion efficiency in perovskite solar cells” by Z. Xiong et al.",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aed9040?af=R",
+    "authors": [],
+    "summary": "Science, Volume 390, Issue 6777, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aee4259?af=R",
+    "title": "‘Functional cure’ for HIV comes closer to reality",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aee4259?af=R",
+    "authors": [
+      "Jon Cohen"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 970-971, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aee4260?af=R",
+    "title": "States step up to democratize AI-tailored computers",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aee4260?af=R",
+    "authors": [
+      "Celina Zhao"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 972-973, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aee4261?af=R",
+    "title": "Abandoned antiviral shows promise against dengue",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aee4261?af=R",
+    "authors": [
+      "Gretchen Vogel"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 973-974, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aee4262?af=R",
+    "title": "DOE boost for AI, fusion could squeeze basic research",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aee4262?af=R",
+    "authors": [
+      "Adrian Cho"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 975-975, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aee4263?af=R",
+    "title": "Can a smaller U.S. National Academies remain relevant?",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aee4263?af=R",
+    "authors": [
+      "Jeffrey Mervis"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 976-977, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aee4258?af=R",
+    "title": "Experimental treatments target the brain’s ‘plumbing’",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aee4258?af=R",
+    "authors": [
+      "Jennie Erin Smith"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 968-970, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aee3888?af=R",
+    "title": "Putting the U in quantum",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aee3888?af=R",
+    "authors": [
+      "Zack Savitsky"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 978-982, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aed3111?af=R",
+    "title": "The United Nations Ocean Decade: A catalyst for international collaboration enhancing ocean monitoring and data",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aed3111?af=R",
+    "authors": [
+      "Patricia Miloslavich"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aee0605?af=R",
+    "title": "Accelerating science with AI",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aee0605?af=R",
+    "authors": [
+      "Darío Gil and Kathryn A. Moler"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 965-965, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-11-25"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.adu9077?af=R",
+    "title": "Toward science-based conviction criteria to deter wildlife crime",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adu9077?af=R",
+    "authors": [
+      "Ruocheng Hu, Shuangqi Liu, Lingyun Xiao, Ziyun Zhu, Yuehan Dou, Shen Zhang, Xiaotong Ren, Fangyuan Hua, and Zhi Lu"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 993-995, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.science.org/doi/abs/10.1126/science.aee3886?af=R",
+    "title": "In Science Journals",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aee3886?af=R",
+    "authors": [
+      "Michael Funk, and Jelena Stajic, Di Jiang, Phil Szuromi, Michael A. Funk, Madeleine Seale, Annalisa VanHook, Marc S. Lavine, Christiane P. Koch, Caroline Ash, Ekeoma Uzogara, Christiana N. Fogg, and Molly Ogle"
+    ],
+    "summary": "Science, Volume 390, Issue 6777, Page 1012-1014, December 2025. <br />",
+    "source": "AAAS: Science: Table of Contents",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.nature.com/articles/s41467-025-66864-9",
+    "title": "Probabilistic greedy algorithm solver using magnetic tunneling junctions for traveling salesman problem",
+    "link": "https://www.nature.com/articles/s41467-025-66864-9",
+    "authors": [
+      "Ran Zhang",
+      "Xiaohan Li",
+      "Caihua Wan",
+      "Raik Hoffmann",
+      "Meike Hindenberg",
+      "Yingqian Xu",
+      "Shiqiang Liu",
+      "Dehao Kong",
+      "Shilong Xiong",
+      "Shikun He",
+      "Alptekin Vardar",
+      "Qiang Dai",
+      "Junlu Gong",
+      "Yihui Sun",
+      "Zejie Zheng",
+      "Thomas Kämpfe",
+      "Guoqiang Yu",
+      "Xiufeng Han"
+    ],
+    "summary": "Nature Communications, Published online: 04 December 2025; <a href=\"https://www.nature.com/articles/s41467-025-66864-9\">doi:10.1038/s41467-025-66864-9</a>Solving a task of optimal route search may be challenging for conventional algorithms. Here, authors use tunable random signals from magnetic tunnel junctions to improve a probabilistic greedy Traveling Salesman Problem solver to better balance exploration and efficiency, and make it applicable for larger problems.",
+    "source": "Nature Communications",
+    "date": "2025-12-04"
+  },
+  {
+    "id": "https://www.nature.com/articles/s43247-025-03000-x",
+    "title": "Water sources and land capacitor effects stimulate observed summer Arctic moistening and warming",
+    "link": "https://www.nature.com/articles/s43247-025-03000-x",
+    "authors": [
+      "Ian Baxter",
+      "Qinghua Ding",
+      "Thomas Ballinger",
+      "Hailong Wang",
+      "Marika Holland",
+      "Hailan Wang",
+      "Zhe Li",
+      "Yutian Wu",
+      "Nicole Feldl",
+      "Jennifer E. Kay",
+      "Bin Guan",
+      "Jiang Zhu"
+    ],
+    "summary": "Communications Earth &amp; Environment, Published online: 03 December 2025; <a href=\"https://www.nature.com/articles/s43247-025-03000-x\">doi:10.1038/s43247-025-03000-x</a>Trends in boreal summer large scale circulation have been a key factor in the moistening of the Arctic over recent decades, according to analyses of Earth system model simulations.",
+    "source": "Communications Earth & Environment",
+    "date": "2025-12-03"
+  },
+  {
+    "id": "https://www.nature.com/articles/s43247-025-02927-5",
+    "title": "Sustained supershear rupture during the 2025 Mandalay, Myanmar earthquake",
+    "link": "https://www.nature.com/articles/s43247-025-02927-5",
+    "authors": [
+      "Yanchuan Li",
+      "Xinjian Shan",
+      "Chenglong Li",
+      "Chuanchao Huang",
+      "Xin Wang",
+      "Xiaohua Xu",
+      "Haicheng Xiong"
+    ],
+    "summary": "Communications Earth &amp; Environment, Published online: 02 December 2025; <a href=\"https://www.nature.com/articles/s43247-025-02927-5\">doi:10.1038/s43247-025-02927-5</a>The Mw 7.7 2025 Mandalay earthquake displayed initial bilateral sub-shear rupture which then transitioned into sustained super-shear in the southward propagation direction, according to a combination of geodetic, finite fault inversion, back-projection and dynamic rupture analyses",
+    "source": "Communications Earth & Environment",
+    "date": "2025-12-02"
+  },
+  {
+    "id": "https://www.nature.com/articles/s43247-025-02947-1",
+    "title": "Urbanization is projected to increase local surface temperature by 2100",
+    "link": "https://www.nature.com/articles/s43247-025-02947-1",
+    "authors": [
+      "Shirao Liu",
+      "Xuecao Li",
+      "Zitong Shi",
+      "Mengqing Geng",
+      "Guojiang Yu",
+      "Tengyun Hu"
+    ],
+    "summary": "Communications Earth &amp; Environment, Published online: 02 December 2025; <a href=\"https://www.nature.com/articles/s43247-025-02947-1\">doi:10.1038/s43247-025-02947-1</a>By 2100, urbanization contributes an average local warming of 0.1 degree centigrade, and up to 16 percent of urban areas experience extreme warming exceeding 1 degree centigrade, according to an analysis that combines climate model projections and a dynamic regression model.",
+    "source": "Communications Earth & Environment",
+    "date": "2025-12-02"
+  },
+  {
+    "id": "https://www.nature.com/articles/s43247-025-03011-8",
+    "title": "Photogrammetry and analogue experiments in 3D-printed mold applied to the 2022-2023 lava emplacement at Lascar Volcano in Chile",
+    "link": "https://www.nature.com/articles/s43247-025-03011-8",
+    "authors": [
+      "Lun Ai",
+      "Thomas R. Walter",
+      "Felipe Aguilera",
+      "Gabriel Ureta"
+    ],
+    "summary": "Communications Earth &amp; Environment, Published online: 02 December 2025; <a href=\"https://www.nature.com/articles/s43247-025-03011-8\">doi:10.1038/s43247-025-03011-8</a>The Lascar volcano’s crater floor was lifted due to lava extrusion, followed by a funnel-shaped structure that cooled and solidified due to magma withdrawal, providing constraints on the geometry of underlying volcanic conduit, according to photogrammetry and analogue experiments in 3D-printed mold.",
+    "source": "Communications Earth & Environment",
+    "date": "2025-12-02"
+  },
+  {
+    "id": "https://www.nature.com/articles/s43247-025-02933-7",
+    "title": "A hydrologically informed agricultural land use intensity index for assessing ecological impacts on streams and rivers",
+    "link": "https://www.nature.com/articles/s43247-025-02933-7",
+    "authors": [
+      "Michael Kyei Agyekum",
+      "Devanshi Pathak",
+      "Alina Kindinger",
+      "Rohini Kumar",
+      "Dietrich Borchardt",
+      "Markus Weitere",
+      "Karin Frank",
+      "Mechthild Schmitt-Jansen",
+      "Olaf Büttner",
+      "Mario Brauns",
+      "Patrick Fink",
+      "Ulrike Scharfenberger"
+    ],
+    "summary": "Communications Earth &amp; Environment, Published online: 02 December 2025; <a href=\"https://www.nature.com/articles/s43247-025-02933-7\">doi:10.1038/s43247-025-02933-7</a>Pesticide pressure has the strongest association with ecological status in Germany particularly in low-order streams and the central highlands, as revealed by a new land use intensity index explicitly considering multiple hydrological information.",
+    "source": "Communications Earth & Environment",
+    "date": "2025-12-02"
+  },
+  {
     "id": "https://www.nature.com/articles/s41467-025-66987-z",
     "title": "ENSO amplifies global vegetation resilience variability in a changing climate",
     "link": "https://www.nature.com/articles/s41467-025-66987-z",
