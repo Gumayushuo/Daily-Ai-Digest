@@ -119,7 +119,7 @@ def fetch_new_entries():
                     "summary": summary_text,
                     "source": source_name,
                     # 🚀 【关键修复】使用文章本身的发布日期
-                    "date": parse_date(entry) 
+                    "date": parse_date(entry) ,
                     "sent": False
                 }
                 
