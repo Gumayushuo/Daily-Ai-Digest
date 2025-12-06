@@ -12,21 +12,28 @@ PAPERS_JSON_PATH = "output/papers.json"
 
 # 地球科学相关 RSS 源列表
 RSS_URLS = [
-    "http://www.nature.com/nature/current_issue/rss",
-    "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
-    "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv",
-    "https://www.nature.com/ngeo.rss",
-    "https://www.nature.com/ncomms.rss",
-    "https://www.nature.com/natrevearthenviron.rss",
-    "https://www.nature.com/commsenv.rss",
-    "https://www.pnas.org/action/showFeed?type=searchTopic&taxonomyCode=topic&tagCode=earth-sci",
-    "https://www.annualreviews.org/rss/content/journals/earth/latestarticles?fmt=rss",
-    "https://rss.sciencedirect.com/publication/science/00128252",
-    "https://rss.sciencedirect.com/publication/science/0012821X",
-    "https://agupubs.onlinelibrary.wiley.com/feed/19448007/most-recent",
-    "https://agupubs.onlinelibrary.wiley.com/feed/15252027/most-recent", 
-    "https://agupubs.onlinelibrary.wiley.com/feed/21699356/most-recent",
-    "https://rss.sciencedirect.com/publication/science/00167037",
+    "http://www.nature.com/nature/current_issue/rss",  #nature
+    "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",  #science
+    "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv",   #SA
+    "https://www.nature.com/ngeo.rss",     #NG
+    "https://www.nature.com/ncomms.rss",   #NC
+    "https://www.nature.com/natrevearthenviron.rss",   #Nature REE
+    "https://www.nature.com/commsenv.rss",             #NC EE
+    "https://www.pnas.org/action/showFeed?type=searchTopic&taxonomyCode=topic&tagCode=earth-sci", #PNAS
+    "https://www.annualreviews.org/rss/content/journals/earth/latestarticles?fmt=rss", #Annual Review of Earth and Planetary Sciences
+    "https://rss.sciencedirect.com/publication/science/00128252",   #ESR
+    "https://rss.sciencedirect.com/publication/science/0012821X",   #EPSL
+    "https://agupubs.onlinelibrary.wiley.com/feed/19448007/most-recent",  #GRL
+    "https://agupubs.onlinelibrary.wiley.com/feed/15252027/most-recent",   #Geochemistry, Geophysics, Geosystems
+    "https://agupubs.onlinelibrary.wiley.com/feed/21699356/most-recent",    #JGR:Solid Earth
+    "https://rss.sciencedirect.com/publication/science/00167037",     #GCA
+    "https://pubs.geoscienceworld.org/rss/site_65/advanceAccess_33.xml",   #Geology
+    "https://pubs.geoscienceworld.org/rss/site_119/advanceAccess_60.xml",  #AM
+    "https://pubs.geoscienceworld.org/economicgeology/issue/120/6",       #EG
+    "https://pubs.geoscienceworld.org/rss/site_69/advanceAccess_35.xml", #GSAB
+    "https://academic.oup.com/rss/site_5332/advanceAccess_3198.xml",     #NSR
+    "https://agupubs.onlinelibrary.wiley.com/feed/19449194/most-recent",  #Tectonic
+    "https://www.earthsciencefrontiers.net.cn/CN/rss_zxly_1005-2321.xml",#geoscience frontiers  地学前缘（英文版）
 ]
 
 def load_seen_papers():
