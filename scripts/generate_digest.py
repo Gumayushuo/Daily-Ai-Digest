@@ -36,14 +36,19 @@ with open(SEEN_JSON_PATH, "r", encoding="utf-8") as f:
         print(f"错误日报已生成：{OUTPUT_PATH}")
         exit(1)
 
-# 筛选今日新增论文
-papers_today = [p for p in seen if isinstance(p, dict) and p.get("date") == today]
+# 获取所有未发送的论文
+papers_unsent = [p for p in seen if not p.get("sent", False)]
 
 # -------------------
-if not papers_today:
-    print("今日没有新增论文。")
-    daily_content = [f"Daily Paper Digest — {today}", "\n今日没有新增论文。\n", f"已累计收录：{len(seen)} 篇"] 
+if not papers_unsent:
+    print("今日没有需要发送的新论文。")
+    daily_content = [
+        f"Daily Paper Digest — {today}",
+        "\n今日没有新增论文。\n",
+        f"已累计收录：{len(seen)} 篇"
+    ]
     daily_text = "\n".join(daily_content)
+
 else:
     DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
     if not DEEPSEEK_API_KEY:
@@ -51,11 +56,11 @@ else:
     else:
         client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
-        if len(papers_today) > 50:
-            print(f"警告：今日新增论文过多 ({len(papers_today)}篇)，仅选取前 30 篇进行摘要。")
-            papers_for_ai = papers_today[:30]
+        if len(papers_unsent) > 50:
+            print(f"警告：今日新增论文过多 ({len(papers_unsent)}篇)，仅选取前 30 篇进行摘要。")
+            papers_for_ai = papers_unsent[:30]
         else:
-            papers_for_ai = papers_today
+            papers_for_ai = papers_unsent
 
         papers_brief = "\n".join(
             f"{p.get('title','未知标题')} ({p.get('source','未知期刊')})"
@@ -132,7 +137,7 @@ else:
     # -------------------
     daily_content = []
     daily_content.append(f"Daily Paper Digest — {today}")
-    daily_content.append(f"今日新增论文：{len(papers_today)}")
+    daily_content.append(f"今日新增论文：{len(papers_unsent)}")
     daily_content.append(f"已累计收录：{len(seen)} 篇")
     daily_content.append("\n---\n")
     daily_content.append("【AI 摘要整理】\n")
@@ -140,7 +145,7 @@ else:
     daily_content.append("\n---\n")
     daily_content.append("【附录：原始论文信息】\n")
 
-    for i, p in enumerate(papers_today, 1):
+    for i, p in enumerate(papers_unsent, 1):
         authors = p.get("authors", [])
         authors = [a for a in authors if a]
         authors_str = ", ".join(authors) if authors else "未知"
