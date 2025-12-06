@@ -112,14 +112,24 @@ else:
     # 【关键修改 2】这里只遍历 papers_to_process，而不是 papers_unsent
     for i, p in enumerate(papers_to_process, 1):
         authors = p.get("authors", [])
+        # 处理作者列表可能为 None 的情况
+        if authors is None:
+            authors = []
+        
         authors_str = ", ".join(authors[:3]) + (" 等" if len(authors) > 3 else "") if authors else "未知"
         
-        daily_content.append(f"### {i. {p.get('title','未知标题')}}")
+        # 修复了这里的 f-string 语法错误
+        daily_content.append(f"### {i}. {p.get('title','未知标题')}")
         daily_content.append(f"- **期刊**：{p.get('source','未知')}")
         daily_content.append(f"- **作者**：{authors_str}")
         daily_content.append(f"- **链接**：{p.get('link','')}")
-        # 如果摘要太长，可以截断
-        summary = p.get('summary', '').strip()
+        
+        summary = p.get('summary', '')
+        # 处理 summary 为 None 的情况
+        if summary is None:
+            summary = ""
+        summary = summary.strip()
+            
         if len(summary) > 300:
             summary = summary[:300] + "..."
         if summary:
