@@ -165,3 +165,36 @@ with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
     f.write(daily_text)
 
 print(f"日报已生成：{OUTPUT_PATH}")
+
+
+# -------------------
+# 生成 Markdown 文件
+os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+    f.write(daily_text)
+
+print(f"日报已生成：{OUTPUT_PATH}")
+
+# ==========================================
+# 【新增/修改部分】关键修复：更新 seen.json 状态
+# ==========================================
+
+# 1. 将本次处理过的所有 unsend 论文标记为已发送
+if papers_unsent: # 只有当有新论文处理时才执行
+    print(f"正在更新 {len(papers_unsent)} 篇论文的状态为已发送...")
+    for p in papers_unsent:
+        p['sent'] = True
+    
+    # 注意：papers_unsent 是 seen 列表内对象的引用
+    # 所以修改 papers_unsent 里的对象，seen 里的对应内容也会变
+    # 我们直接把整个 seen 列表写回文件即可
+
+    try:
+        with open(SEEN_JSON_PATH, "w", encoding="utf-8") as f:
+            json.dump(seen, f, indent=2, ensure_ascii=False)
+        print("成功更新 seen.json，文章状态已标记为 sent: true")
+    except Exception as e:
+        print(f"严重错误：无法保存 seen.json状态: {e}")
+        # 如果保存失败，下次还会重复发送，但这比丢失数据好
+else:
+    print("没有需要更新状态的论文。")
